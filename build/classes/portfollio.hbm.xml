@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 1 Jun, 2017 2:38:22 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="test.com.portfollio" table="PORTFOLLIO">
+        <id name="share_id" type="java.lang.String">
+            <column name="SHARE_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="user" type="java.lang.String">
+            <column name="USER" />
+        </property>
+        <property name="company" type="java.lang.String">
+            <column name="COMPANY" />
+        </property>
+        <property name="date_of_purch" type="java.lang.String">
+            <column name="DATE_OF_PURCH" />
+        </property>
+        <property name="rate_of_share" type="java.lang.String">
+            <column name="RATE_OF_SHARE" />
+        </property>
+        <property name="quantity" type="java.lang.String">
+            <column name="QUANTITY" />
+        </property>
+        <property name="profit" type="java.lang.String">
+            <column name="PROFIT" />
+        </property>
+        <property name="loss" type="java.lang.String">
+            <column name="LOSS" />
+        </property>
+    </class>
+</hibernate-mapping>

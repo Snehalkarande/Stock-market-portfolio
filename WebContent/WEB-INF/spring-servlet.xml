@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+
+
+	
+	
+
+	
+	<!-- <bean name="/forget.html" class="test.com.ForgetController"></bean> -->
+	
+	
+	<!-- <bean name="/admin.html" class="test.com.AdminController"></bean> -->
+	<!-- <bean name="/gotomarket.html" class="test.com.MarketController"></bean> -->
+	
+	
+	
+	
+	<!-- <bean name="/disp_portfollio.html"
+		class="test.com.portfollioController">
+	</bean> -->
+	
+	<bean name="/logout.html" class="test.com.LogoutController"></bean>
+	
+	<bean name="/viewportfolio.html"
+		class="test.com.viewportfollioController">
+	</bean>
+	
+	
+	
+	<bean name="/feedback.html"
+		class="test.com.viewFeedbackController">
+	</bean>
+	
+	
+	
+	<bean name="/reg.html" class="test.com.RegisterController"></bean>
+	<bean name="/admin.html" class="test.com.AdminController"></bean>
+	<!-- <bean name="/user.html" class="test.com.displayuserController"></bean>
+	 -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+	<bean name="/forget.html" class="test.com.ForgetController"></bean>
+	
+	
+	
+	<bean name="/createmarket.html"
+		class="test.com.displaymarketController">
+	</bean>
+	
+	
+	<bean name="/log.html" class="test.com.LoginController"></bean>
+	<bean name="/gotomarket.html" class="test.com.MarketController"></bean>
+	<bean name="/disp_portfollio.html"
+		class="test.com.portfollioController">
+	</bean>
+	<bean name="/user.html" class="test.com.displayuserController"></bean>
+</beans>

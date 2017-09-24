@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 30 May, 2017 7:36:49 PM by Hibernate Tools 3.5.0.Final -->
+
+<hibernate-mapping>
+    <class name="test.com.market" table="MARKET">
+        <id name="share_id" type="java.lang.String">
+            <column name="SHARE_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="company_name" type="java.lang.String">
+            <column name="COMPANY_NAME" />
+        </property>
+        <property name="share_rate" type="java.lang.String">
+            <column name="SHARE_RATE" />
+        </property>
+        <property name="share_quqntity" type="java.lang.String">
+            <column name="SHARE_QUQNTITY" />
+        </property>
+    </class>
+</hibernate-mapping>
