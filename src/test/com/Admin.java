@@ -4,7 +4,7 @@ public class Admin {
 	
 	String email;
 	String pass;
-	
+	//done
 	public String getEmail() {
 		return email;
 	}
