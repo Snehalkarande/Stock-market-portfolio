@@ -5,7 +5,8 @@ public class Admin {
 	String email;
 	String pass;
 	//done
-	 
+	 //snehal karande
+	//changes made by mitali
 	
 	public String getEmail() {
 		return email;
